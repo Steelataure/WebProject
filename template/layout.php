@@ -10,10 +10,14 @@
 <body>
     <?php include '../includes/header.php'; 
     require_once '../includes/db.php';
+    if (session_status() == PHP_SESSION_NONE) {
+        session_start();
+    }
     ?>  
     
     <main>
-        <?php echo isset($content) ? $content : ''; ?>
+        <?php 
+        echo isset($content) ? $content : ''; ?>
     </main>
     
     <?php// include '../includes/footer.php'; ?>

@@ -1,12 +1,31 @@
 <?php
-$title = "Accueil";
-ob_start();
-?>
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+$title = "index";
 
-<h2>Page d'accueil</h2>
-<p>On recherche toujours le nom du projet donc bon...</p>
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
-<?php
-$content = ob_get_clean();
-include '../template/layout.php';
+switch ($page) {
+    case 'login':
+        require '../pages/login.php';
+        break;
+    case 'dashboard':
+        if (isset($_SESSION['user_id'])) {
+            require '../pages/home.php';
+        } else {
+            header('Location: index.php?page=login');
+            exit();
+        }
+        break;
+    case 'about':
+        require 'about.php';
+        break;
+    case 'home':
+        require '../pages/home.php';
+        break;
+    default:
+        require '../pages/home.php';
+}
+
 ?>

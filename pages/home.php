@@ -1,5 +1,6 @@
 <?php
-$title = "Contact";
+
+$title = "Home";
 ob_start();
 ?>
 
