@@ -1,5 +1,4 @@
 <?php
-
 $title = "Login";
 ob_start();
 
@@ -11,7 +10,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
     $stmt->execute([$username]);
     $user = $stmt->fetch();
-    var_dump($user);
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['username'] = $user['username'];
         $_SESSION['isLogged'] = true;
@@ -36,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="submit" value="Login">
     </div>
 </form>
+<p>Pas de compte ? <a href="?page=register">Inscrivez-vous</a></p>
 
 <?php
 $content = ob_get_clean();
 include '../template/layout.php';
-?>
