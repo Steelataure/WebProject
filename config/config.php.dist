@@ -4,4 +4,9 @@ return [
     'smtp_username' => 'votre_nom_utilisateur_smtp',
     'smtp_password' => 'votre_mot_de_passe_smtp',
     'smtp_port' => 587, // Port SMTP à utiliser
+
+    'host' => 'localhost', // Adresse du serveur MySQL
+    'dbname' => 'nom_de_la_base_de_donnees', // Nom de la base de données
+    'username' => 'nom_utilisateur', // Nom d'utilisateur MySQL
+    'password' => 'mot_de_passe', // Mot de passe MySQL
 ];
