@@ -1,0 +1,7 @@
+<?php
+return [
+    'smtp_host' => 'votre_host_smtp',
+    'smtp_username' => 'votre_nom_utilisateur_smtp',
+    'smtp_password' => 'votre_mot_de_passe_smtp',
+    'smtp_port' => 587, // Port SMTP à utiliser
+];
