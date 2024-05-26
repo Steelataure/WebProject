@@ -1,5 +1,6 @@
 <?php
 require '../vendor/autoload.php';
+require '../config/config_loader.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -25,16 +26,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $mail = new PHPMailer(true);
             try {
-                // Configuration du serveur SMTP
+                // Charger la configuration SMTP à partir du fichier de configuration
+                $config = require '../config/config.php';
                 $mail->isSMTP();
-                $mail->Host = 'smtp-steel.alwaysdata.net';
+                $mail->Host = $config['smtp_host'];
                 $mail->SMTPAuth = true;
-                $mail->Username = 'steel@alwaysdata.net'; 
-                $mail->Password = 'aled159753'; 
+                $mail->Username = $config['smtp_username']; 
+                $mail->Password = $config['smtp_password']; 
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-                $mail->Port = 587;
+                $mail->Port = $config['smtp_port'];
 
-                $mail->setFrom('steel@alwaysdata.net', 'WebProject');
+                $mail->setFrom($config['smtp_username'], 'WebProject');
                 $mail->addAddress($email);
 
                 $mail->isHTML(true);
