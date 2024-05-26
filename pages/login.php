@@ -1,35 +1,40 @@
 <?php
+
 $title = "Login";
 ob_start();
 
-if (isset($_SESSION['isLogged'])) {
-    header("Location: index.php");
-    exit;
-}
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $stmt = $pdo->prepare("SELECT * FROM user WHERE username = ?");
+    $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
     $stmt->execute([$username]);
     $user = $stmt->fetch();
-
+    var_dump($user);
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['username'] = $user['username'];
         $_SESSION['isLogged'] = true;
         header("Location: index.php");
         exit();
     } else {
-        echo "Invalid username or password";
+        echo 'Identifiants incorrects.';
     }
 }
 ?>
 
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    Username: <input type="text" name="username" required>
-    Password: <input type="password" name="password" required>
-    <input type="submit" value="Login">
+<form method="post" action="?page=login">
+    <div>
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <input type="submit" value="Login">
+    </div>
 </form>
 
 <?php
