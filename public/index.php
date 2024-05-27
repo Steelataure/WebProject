@@ -6,7 +6,7 @@ $title = "index";
 require_once '../includes/db.php';
 require '../vendor/autoload.php';
 
-dump($_SESSION);
+//dump($_SESSION);
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
@@ -14,6 +14,13 @@ switch ($page) {
     case 'login':
         require '../pages/login.php';
         break;
+    case 'logout':
+        require '../pages/logout.php';
+        break;
+    case 'validation':
+        require '../pages/validation.php';
+        break;
+    
     case 'home':
         require '../pages/home.php';
 
