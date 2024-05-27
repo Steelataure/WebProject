@@ -4,6 +4,9 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 $title = "index";
 require_once '../includes/db.php';
+require '../vendor/autoload.php';
+
+dump($_SESSION);
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 

@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $stmt = $pdo->prepare("INSERT INTO users (username, password, email, validation_token) VALUES (?, ?, ?, ?)");
         if ($stmt->execute([$username, $hashed_password, $email, $validation_token])) {
-            $validation_link = "http://161.97.68.235/?page=validate.php&token=$validation_token";
+            $validation_link = "http://161.97.68.235/?page=validation.php&token=$validation_token";
 
             $mail = new PHPMailer(true);
             try {

@@ -8,7 +8,7 @@
 
             <?php if (isset($_SESSION['isLogged'])){ ?> 
             <li class="nav-item">
-                <!-- <span>Connecté en tant que : <?php echo $_SESSION['isLogged']; ?></span> -->
+                 <span>Connecté en tant que : <?php echo $_SESSION['username']; ?></span>
                 <form method="POST" action="/index.php?page=logout">
                         <button type="submit" name="deconnexion">Déconnexion</button>
                         <?php
