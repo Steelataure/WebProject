@@ -2,6 +2,8 @@
 $title = "WebRunners - Login";
 ob_start();
 
+$pdo = getDatabaseConnection();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $username = $_POST['username'];
@@ -21,8 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
-
+<!---------------------------------------->
 
 <section class="login_section layout_padding">
     <div class="container">

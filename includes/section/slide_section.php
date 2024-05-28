@@ -1,10 +1,4 @@
-<?php
-$title = "Prix";
-ob_start();
-?>
 
-
-<body class="sub_page">
     <!-- slider section -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
@@ -15,17 +9,17 @@ ob_start();
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      Fast & Secure <br>
-                      Web Hosting
+                      Rapide et sécurisé <br>
+                      Une équipe professionnelle
                     </h1>
                     <p>
-                      Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
+			Notre équipe sera à votre écoute afin de vous proposer un service de qualité approprié à votre demande
                     <div class="btn-box">
                       <a href="" class="btn-1">
-                        Read More
+                        En savoir plus
                       </a>
                       <a href="" class="btn-2">
-                        Contact Us
+                        Contact
                       </a>
                     </div>
                   </div>
@@ -34,7 +28,40 @@ ob_start();
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="">
+                        <img src="assets/images/slider-img.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="detail-box">
+                    <h1>
+                      Rapide et Sécurisé <br>
+                      Une équipe professionnelle
+                    </h1>
+                    <p>
+			Notre équipe sera à votre écoute afin de vous proposer un service de qualité approprié à votre demande
+                    <div class="btn-box">
+                      <a href="" class="btn-1">
+                        En savoir plus
+                      </a>
+                      <a href="" class="btn-2">
+                        Contact
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class=" col-lg-10 mx-auto">
+                      <div class="img-box">
+                        <img src="assets/images/slider-img.png" alt="">
                       </div>
                     </div>
                   </div>
@@ -67,40 +94,7 @@ ob_start();
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail-box">
-                    <h1>
-                      Fast & Secure <br>
-                      Web Hosting
-                    </h1>
-                    <p>
-                      Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Read More
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class=" col-lg-10 mx-auto">
-                      <div class="img-box">
-                        <img src="images/slider-img.png" alt="">
+                        <img src="assets/images/slider-img.png" alt="">
                       </div>
                     </div>
                   </div>
@@ -122,10 +116,3 @@ ob_start();
       </div>
     </section>
     <!-- end slider section -->
-  </div>
-<?php
-include('../includes/section/pricing_section.php');
-
-$content = ob_get_clean();
-include '../template/layout.php';
-?>
