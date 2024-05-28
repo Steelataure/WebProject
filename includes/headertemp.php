@@ -28,15 +28,21 @@
               <li class="nav-item">
                 <a class="nav-link" href="/index.php?page=contact">Contact</a>
               </li>
+              <li class="nav-item">
+              <?php if (!isset($_SESSION['isLogged'])){ ?>
+                <a class="nav-link" href="/index.php?page=login">Login</a>
+                <?php } else{?>
+                  <a class="nav-link" href="/index.php?page=login"><?php echo $_SESSION['username']; ?></a> 
+                </li>
+
+                <li class="nav-item">
+                <i class="fa-solid fa-right-from-bracket"><a class="nav-link" href="/index.php?page=logout">Logout</a></i>
+              </li>
+                        <?php
+                    } ?>
+                </form> 
+              </li>
             </ul>
-            <div class="quote_btn-container">
-              <form class="form-inline">
-                <button class="btn   nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-             </a>
-            </div>
           </div>
         </nav>
       </div>
