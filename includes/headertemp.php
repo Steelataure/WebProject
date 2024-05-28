@@ -14,10 +14,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/index.php?page=home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/index.php?page=home">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/index.php?page=about"> About</a>
+                <a class="nav-link" href="/index.php?page=about">A propos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/index.php?page=service">Services</a>
@@ -26,7 +26,7 @@
                 <a class="nav-link" href="/index.php?page=price">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/index.php?page=contact">Contact Us</a>
+                <a class="nav-link" href="/index.php?page=contact">Contact</a>
               </li>
             </ul>
             <div class="quote_btn-container">
@@ -35,12 +35,7 @@
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
               </form>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call : +33 6 40 81 50 99
-                </span>
-              </a>
+             </a>
             </div>
           </div>
         </nav>
