@@ -36,9 +36,8 @@
                 </li>
 
                 <li class="nav-item">
-                <i class="fa-solid fa-right-from-bracket"><a class="nav-link" href="/index.php?page=logout">Logout</a></i>
-              </li>
-                        <?php
+                <a class="nav-link" href="/index.php?page=logout">Logout</a>
+                </li><?php
                     } ?>
                 </form> 
               </li>

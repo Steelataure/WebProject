@@ -2,7 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-$title = "index";
+$title = "WebRunners";
 require_once '../includes/db.php';
 require '../vendor/autoload.php';
 

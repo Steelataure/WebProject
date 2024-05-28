@@ -1,5 +1,5 @@
 <?php
-$title = "Validation";
+$title = "WebRunners";
 ob_start();
 
 if (isset($_GET['token'])) {

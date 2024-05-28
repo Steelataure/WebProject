@@ -1,5 +1,5 @@
 <?php
-$title = "Boutique";
+$title = "WebRunners";
 ob_start();
 ?>
 
