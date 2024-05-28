@@ -20,6 +20,12 @@ switch ($page) {
     case 'validation':
         require '../pages/validation.php';
         break;
+    case 'price':
+        require '../pages/price.php';
+        break;
+    case 'service':
+        require '../pages/price.php';
+        break;
     
     case 'home':
         require '../pages/home.php';
