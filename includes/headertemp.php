@@ -1,9 +1,10 @@
 
+<div class="hero_area">
 <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>Hostit</span>
+          <a class="navbar-brand" href="/index.php?page=home">
+            <span>WebRunners</span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +38,7 @@
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call : +01 123455678990
+                  Call : +33 6 40 81 50 99
                 </span>
               </a>
             </div>
@@ -45,3 +46,7 @@
         </nav>
       </div>
     </header>
+
+
+
+    

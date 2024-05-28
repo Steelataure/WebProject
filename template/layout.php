@@ -14,7 +14,7 @@
 
 </head>
 <body>
-     <?php //include '../includes/header.php'; 
+     <?php include '../includes/headertemp.php'; 
     if (session_status() == PHP_SESSION_NONE) {
         session_start();
     }
@@ -25,7 +25,9 @@
         echo isset($content) ? $content : ''; ?>
     </main>
     
-    <?php // include '../includes/footer.php'; ?>
+    <?php // include '../includes/footer.php';
+    include('../includes/info_section.php')
+     ?>
     <!-- Intégration des scripts spécifiques au template -->
     <script src="/path/to/template.js"></script>
 </body>

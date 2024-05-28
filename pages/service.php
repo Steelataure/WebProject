@@ -3,11 +3,7 @@ $title = "Service";
 ob_start();
 ?>
 
-<body class="sub_page">
 
-  <div class="hero_area">
-    <!-- header section strats --><?php include('temphead.php') ?>
-    <!-- end header section -->
   </div>
 
   <!-- service section -->
@@ -25,7 +21,7 @@ ob_start();
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s1.png" alt="">
+              <img src="assets/images/s1.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -45,7 +41,7 @@ ob_start();
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s2.png" alt="">
+              <img src="assets/images/s2.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -65,7 +61,7 @@ ob_start();
         <div class="col-md-6 col-lg-4 ">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s3.png" alt="">
+              <img src="assets/images/s3.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -85,7 +81,7 @@ ob_start();
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s4.png" alt="">
+              <img src="assets/images/s4.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -105,7 +101,7 @@ ob_start();
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s5.png" alt="">
+              <img src="assets/images/s5.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -125,7 +121,7 @@ ob_start();
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="assets/images/s6.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -202,23 +198,23 @@ ob_start();
             </h4>
             <div class="info_links">
               <a class="" href="index.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="assets/images/nav-bullet.png" alt="">
                 Home
               </a>
               <a class="" href="about.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="assets/images/nav-bullet.png" alt="">
                 About
               </a>
               <a class="active" href="service.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="assets/images/nav-bullet.png" alt="">
                 Services
               </a>
               <a class="" href="price.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="assets/images/nav-bullet.png" alt="">
                 Pricing
               </a>
               <a class="" href="contact.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="assets/images/nav-bullet.png" alt="">
                 Contact Us
               </a>
             </div>
