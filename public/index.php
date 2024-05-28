@@ -24,12 +24,10 @@ switch ($page) {
         require '../pages/price.php';
         break;
     case 'service':
-        require '../pages/price.php';
+        require '../pages/service.php';
         break;
-    
     case 'home':
         require '../pages/home.php';
-
         // if (isset($_SESSION['user_id'])) {
         //     require '../pages/home.php';
         // } else {
@@ -39,6 +37,9 @@ switch ($page) {
         break;
     case 'about':
         require 'about.php';
+        break;
+    case 'contact':
+        require 'contact.php';
         break;
     case 'register':
         require '../pages/register.php';
