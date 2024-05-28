@@ -49,23 +49,23 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="" href="index.html">
+              <a class="" href="/index.php?page=home">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Home
               </a>
-              <a class="" href="about.html">
+              <a class="" href="/index.php?page=about">
                 <img src="assets/images/nav-bullet.png" alt="">
                 About
               </a>
-              <a class="active" href="service.html">
+              <a class="active" href="/index.php?page=service">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Services
               </a>
-              <a class="" href="price.html">
+              <a class="" href="/index.php?page=price">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Pricing
               </a>
-              <a class="" href="contact.html">
+              <a class="" href="/index.php?page=contact">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Contact Us
               </a>
