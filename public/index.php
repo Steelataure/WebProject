@@ -47,7 +47,7 @@ switch ($page) {
         require '../pages/shop.php';
         break;
     default:
-        require '../pages/home.php';
+        require '../pages/404.php';
 }
 
 ?>
