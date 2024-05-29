@@ -33,39 +33,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
-<!---------------------------------------->
-
-<section class="register_section layout_padding">
-    <div class="container">
-    <div class="heading_container heading_center">
-                
-        <form method="post" action="?page=register">
-            <div>
-                <label for="username">Nom d'utilisateur:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div>
-                <label for="email">Adresse e-mail:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="password">Mot de passe:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div>
-                <label for="confirm_password">Confirmer le mot de passe:</label>
-                <input type="password" id="confirm_password" name="confirm_password" required>
-            </div>
-            <div>
-                <input type="submit" value="S'inscrire">
-            </div>
-        </form>
-        </div>
+<body class="sub_page">
     </div>
-</section>
-
 <?php
+include('../includes/section/register_section.php');
+
 $content = ob_get_clean();
 include '../template/layout.php';
 ?>

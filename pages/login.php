@@ -23,31 +23,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-<!---------------------------------------->
-
-<section class="login_section layout_padding">
-    <div class="container">
-    <div class="heading_container heading_center">
-
-        <form method="post" action="?page=login">
-            <div>
-                <label for="username">Nom d'utilisateur:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div>
-                <label for="password">Mot de passe:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div>
-                <input type="submit" value="Login">
-            </div>
-        </form>
-        <p>Pas de compte ? <a href="?page=register">Inscrivez-vous</a></p>
-        </div>
+<body class="sub_page">
     </div>
-</section>
-
-
+  
+<!---------------------------------------->
 <?php
+
+include('../includes/section/login_section.php');
+
 $content = ob_get_clean();
 include '../template/layout.php';
