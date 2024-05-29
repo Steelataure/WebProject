@@ -1,4 +1,6 @@
 <?php
+session_start(); // Assurez-vous que les sessions sont démarrées
+
 $title = "WebRunners - Login";
 ob_start();
 
@@ -16,6 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['username'] = $user['username'];
         $_SESSION['isLogged'] = true;
+        
+        // Créer un cookie pour stocker le nom d'utilisateur
+        setcookie('username', $user['username'], time() + (86400 * 30), "/", "", false, true);
+
         header("Location: index.php");
         exit();
     } else {
@@ -23,6 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
 <body class="sub_page">
     </div>
   
