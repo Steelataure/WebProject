@@ -1,5 +1,4 @@
 <?php
-session_start(); // Assurez-vous que les sessions sont démarrées
 
 $title = "WebRunners - Login";
 ob_start();
@@ -19,7 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $user['username'];
         $_SESSION['isLogged'] = true;
         
-        // Créer un cookie pour stocker le nom d'utilisateur
         setcookie('username', $user['username'], time() + (86400 * 30), "/", "", false, true);
 
         header("Location: index.php");
