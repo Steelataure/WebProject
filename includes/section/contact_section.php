@@ -4,7 +4,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Get In Touch
+          Contactez-nous
         </h2>
       </div>
       <div class="row">
@@ -12,20 +12,20 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Votre nom" />
               </div>
               <div>
-                <input type="email" placeholder="Your Email" />
+                <input type="email" placeholder="Votre e-mail" />
               </div>
               <div>
-                <input type="text" placeholder="Your Phone" />
+                <input type="text" placeholder="Votre téléphone" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" class="message-box" placeholder="Votre message" />
               </div>
               <div class="btn_box ">
                 <button>
-                  SEND
+                  ENVOYER
                 </button>
               </div>
             </form>

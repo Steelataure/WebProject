@@ -5,15 +5,9 @@
         <div class="col-md-3">
           <div class="info_contact">
             <h4>
-              Address
+              Coordonées
             </h4>
             <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
@@ -23,7 +17,7 @@
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  info@webrunners.fr
                 </span>
               </a>
             </div>
@@ -46,16 +40,16 @@
         <div class="col-md-3">
           <div class="info_link_box">
             <h4>
-              Links
+              Liens
             </h4>
             <div class="info_links">
               <a class="" href="/index.php?page=home">
                 <img src="assets/images/nav-bullet.png" alt="">
-                Home
+                Accueil
               </a>
               <a class="" href="/index.php?page=about">
                 <img src="assets/images/nav-bullet.png" alt="">
-                About
+                A propos
               </a>
               <a class="active" href="/index.php?page=service">
                 <img src="assets/images/nav-bullet.png" alt="">
@@ -67,7 +61,7 @@
               </a>
               <a class="" href="/index.php?page=contact">
                 <img src="assets/images/nav-bullet.png" alt="">
-                Contact Us
+                Contact
               </a>
             </div>
           </div>
@@ -78,18 +72,18 @@
               Info
             </h4>
             <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+            © 2024 Webrunners. Tous droits réservés
             </p>
           </div>
         </div>
         <div class="col-md-3 mb-0">
           <h4>
-            Subscribe
+            S'abonner
           </h4>
           <form action="#">
-            <input type="text" placeholder="Enter email" />
+            <input type="text" placeholder="Entrez votre e-mail" />
             <button type="submit">
-              Subscribe
+              S'abonner
             </button>
           </form>
         </div>
