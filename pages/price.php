@@ -5,7 +5,7 @@ ob_start();
 
 
 <body class="sub_page">
-  <?php include("../includes/section/slide_section.php");
+  <?php include("../includes/section/little_slider_section.php");
   ?>
   </div>
 <?php
