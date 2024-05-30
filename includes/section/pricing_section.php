@@ -5,7 +5,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Our Pricing
+          Nos prix
         </h2>
       </div>
       <div class="price_container ">
