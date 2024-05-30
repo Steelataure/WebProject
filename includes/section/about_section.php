@@ -8,13 +8,14 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+                Qui sommes nous ?
               </h2>
             </div>
             <p>
-              Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks </p>
+              Nous sommes des étudiants en école d'ingénieurs, proposant des services de développement de site web. De plus nous proposons aussi d'administrer et de sécurisé votre architecture. En cas de question n'hésitez surtout pas a nous contacter via la Rubrique "Contact" 
+            </p>
             <a href="">
-              Read More
+              En savoir plus
             </a>
           </div>
         </div>
