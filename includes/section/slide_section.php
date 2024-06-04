@@ -18,7 +18,7 @@
                       <a href="" class="btn-1">
                         En savoir plus
                       </a>
-                      <a href="" class="btn-2">
+                      <a href="/index.php?page=contact" class="btn-2">
                         Contact
                       </a>
                     </div>
@@ -26,9 +26,9 @@
                 </div>
                 <div class="col-md-6">
                   <div class="row">
-                    <div class=" col-lg-10 mx-auto">
+                    <div class="col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="assets/images/slider-img.png" alt="">
+                        <div id="myLottieAnimation" style="width: 500px; height: 500px;"></div>
                       </div>
                     </div>
                   </div>
@@ -51,7 +51,7 @@
                       <a href="" class="btn-1">
                         En savoir plus
                       </a>
-                      <a href="" class="btn-2">
+                      <a href="/index.php?page=contact" class="btn-2">
                         Contact
                       </a>
                     </div>
@@ -61,7 +61,7 @@
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="assets/images/slider-img.png" alt="">
+                      <div id="server" style="width: 500px; height: 500px;"></div>
                       </div>
                     </div>
                   </div>
@@ -84,7 +84,7 @@
                       <a href="" class="btn-1">
                         Read More
                       </a>
-                      <a href="" class="btn-2">
+                      <a href="/index.php?page=contact" class="btn-2">
                         Contact Us
                       </a>
                     </div>
@@ -92,9 +92,9 @@
                 </div>
                 <div class="col-md-6">
                   <div class="row">
-                    <div class=" col-lg-10 mx-auto">
+                    <div class="col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="assets/images/slider-img.png" alt="">
+                        <div id="myLottieMobile" style="width: 500px; height: 500px;"></div>
                       </div>
                     </div>
                   </div>
@@ -116,3 +116,35 @@
       </div>
     </section>
     <!-- end slider section -->
+
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('myLottieAnimation'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assets/images/pclottie.json'
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('myLottieMobile'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assets/images/weblottie.json'
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('server'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assets/images/serverlottie.json'
+    });
+  });
+</script>
