@@ -3,10 +3,10 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Testimonial
+          Avis
         </h2>
         <p>
-          Even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+          Découvrez les avis de clients ayant passés commandes chez nous !
         </p>
       </div>
     </div>
@@ -25,22 +25,17 @@
                       <div class="client_info">
                         <div class="client_name">
                           <h5>
-                            Morojink
+                            Esteban
                           </h5>
                           <h6>
-                            Customer
+                            Client Startup
                           </h6>
                         </div>
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore eu fugia
+                        J'ai été agréablement surpris de la part de ces jeunes étudiants. Ils m'ont fournit un service de qualité
+                        tout en étant à mon écoute. Un grand avenir pour eux en perspective !
                       </p>
                     </div>
                   </div>
@@ -60,22 +55,17 @@
                       <div class="client_info">
                         <div class="client_name">
                           <h5>
-                            Morojink
+                            Patrick
                           </h5>
                           <h6>
-                            Customer
+                            Client Business
                           </h6>
                         </div>
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore eu fugia
+                        Mon experience avec Webrunners s'est avéré très positive. Une documentation très professionnelle
+                        mais aussi une écoute. Une qualité très importante dans le developpement de site internet.
                       </p>
                     </div>
                   </div>
@@ -95,22 +85,18 @@
                       <div class="client_info">
                         <div class="client_name">
                           <h5>
-                            Morojink
+                            Edouard
                           </h5>
                           <h6>
-                            Customer
+                            Client Administration réseau
                           </h6>
                         </div>
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore eu fugia
+                        Je fais partis d'une startup. N'ayant aucune connaissance en informatique j'ai fais appel à 
+                        Webrunners. Ils m'ont aiguillé, conseillé et ont participé à la mise en place de mon réseau
+                        d'entreprise. De vrais intégrateurs !
                       </p>
                     </div>
                   </div>
@@ -122,11 +108,11 @@
         <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#customCarousel2" role="button" data-slide="prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only">Précédent</span>
           </a>
           <a class="carousel-control-next" href="#customCarousel2" role="button" data-slide="next">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
+            <span class="sr-only">Suivant</span>
           </a>
         </div>
       </div>

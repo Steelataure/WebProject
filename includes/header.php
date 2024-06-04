@@ -31,16 +31,16 @@
               <li class="nav-item">
               <?php if (!isset($_SESSION['isLogged'])): ?>
                 
-                <a class="nav-link" href="/index.php?page=login">Login</a>
+                <a class="nav-link" href="/index.php?page=login">Se connecter</a>
                 <?php endif ?>
                   </li>
                   <?php if (isset($_SESSION['isLogged'])){ ?>
                       <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['username']; ?></a>
                           <div class="dropdown-menu" aria-labelledby="profileDropdown">
-                              <a class="dropdown-item" href="/index.php?page=profile">Profile</a>
-                              <a class="dropdown-item" href="/index.php?page=settings">Settings</a>
-                              <a class="dropdown-item" href="/index.php?page=logout">Logout</a>
+                              <a class="dropdown-item" href="/index.php?page=profile">Profil</a>
+                              <a class="dropdown-item" href="/index.php?page=settings">Options</a>
+                              <a class="dropdown-item" href="/index.php?page=logout">Se déconnecter</a>
                           </div>
                       </li>
                   <?php } ?>
