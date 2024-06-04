@@ -41,7 +41,7 @@
                 Développement de site web full stack 
               </h4>
               <p>
-		Nous proposons de mettre en place une architecture web frontend et backend pour votre entreprise
+		Développement BackEnd + FrontEnd
               </p>
               <a href="">
                 En savoir plus
@@ -61,7 +61,7 @@
                 Administration et sécurisation d'architecture
               </h4>
               <p>
-		Protections des données présentes au sein de votre architecture réseau ou web
+		Mise en place d'architecture d'entreprise
               </p>
               <a href="">
                 En savoir plus
