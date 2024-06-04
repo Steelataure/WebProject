@@ -19,14 +19,14 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Let us manage your server
+                Nous sommes la solution
               </h2>
               <p>
-                Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
+                Des solutions dynamiques et en accord avec votre demande
               </p>
             </div>
             <a href="">
-              Read More
+              En savoir plus
             </a>
           </div>
         </div>
