@@ -12,7 +12,8 @@
               </h2>
             </div>
             <p>
-              Nous sommes des étudiants en école d'ingénieurs, proposant des services de développement de site web. De plus nous proposons aussi d'administrer et de sécurisé votre architecture. En cas de question n'hésitez surtout pas a nous contacter via la Rubrique "Contact" 
+              Nous sommes Alexandre, Quentin et Anthony. Trois étudiants en école d'ingénieur proposant leurs services afin de créer pour vous, un site web adapté à vos besoin.
+              Que vous soyez une PME / un auto-entrepreneur vous êtes au bonne endroit ! N'hésitez pas à nous contacter pour que nous discutions du site web dont vous rêver.
             </p>
           </div>
         </div>
@@ -21,7 +22,6 @@
             <img src="assets/images/about-img.png" alt="">
           </div>
         </div>
-
       </div>
     </div>
   </section>
