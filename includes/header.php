@@ -3,7 +3,7 @@
 <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="/index.php?page=home">
+          <a class="navbar-brand" href="/">
             <span>WebRunners</span>
           </a>
 
@@ -14,7 +14,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/home">Accueil <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">A propos</a>

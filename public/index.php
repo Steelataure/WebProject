@@ -25,7 +25,7 @@ switch ($page) {
     case 'service':
         require '../pages/service.php';
         break;
-    case 'home':
+    case '/' || 'home':
         require '../pages/home.php';
         break;
     case 'about':
