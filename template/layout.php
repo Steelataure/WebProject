@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : 'Vente de site web personnalisés'; ?>">
     <title><?php echo isset($title) ? $title : 'WebRunners'; ?></title>
 
     <link rel="icon" href="/assets/images/logo.ico" type="image/ico">

@@ -14,14 +14,15 @@
             <p>
               Nous sommes des étudiants en école d'ingénieurs, proposant des services de développement de site web. De plus nous proposons aussi d'administrer et de sécurisé votre architecture. En cas de question n'hésitez surtout pas a nous contacter via la Rubrique "Contact" 
             </p>
-            <a href="">
+            <a href="about">
               En savoir plus
             </a>
           </div>
         </div>
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="assets/images/about-img.png" alt="">
+            <img src="assets/images/services-creation-site-web-vitrine-fullstac.png" 
+            alt="Illustration des services de création de site web vitrine et fullstack avec un serveur, un développeur et un ordinateur portable">
           </div>
         </div>
 

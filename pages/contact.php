@@ -1,5 +1,7 @@
 <?php
-$title = "WebRunners";
+$title = "Contact - WebRunners";
+$meta_description = 'Contactez-nous pour toute demande d\'information ou de devis, nous sommes à votre écoute.';
+
 ob_start();
 ?>
 

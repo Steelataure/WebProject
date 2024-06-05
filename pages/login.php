@@ -1,6 +1,8 @@
 <?php
 
-$title = "WebRunners - Login";
+$title = "Login - WebRunners";
+$meta_description = 'Connectez-vous à votre compte pour accéder à vos services personnalisés.';
+
 ob_start();
 
 $pdo = getDatabaseConnection();

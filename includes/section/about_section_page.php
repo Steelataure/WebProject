@@ -19,7 +19,8 @@
         </div>
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="assets/images/about-img.png" alt="">
+            <img src="assets/images/services-creation-site-web-vitrine-fullstac.png" 
+            alt="Illustration des services de création de site web vitrine et fullstack avec un serveur, un développeur et un ordinateur portable" >
           </div>
         </div>
       </div>

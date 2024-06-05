@@ -13,7 +13,8 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s1.png" alt="">
+              <img src="assets/images/serveurs-connectes-utilisateur-services-developpement-web.png" 
+              alt="Icône de serveurs connectés avec un utilisateur pour services de développement web">
             </div>
             <div class="detail-box">
               <h4>
@@ -33,7 +34,8 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s2.png" alt="">
+              <img src="assets/images/icone-serveur-cloud-services-web.png" 
+              alt="Icône de serveur avec cloud pour services de création de site web vitrine et fullstack">
             </div>
             <div class="detail-box">
               <h4>
@@ -53,7 +55,8 @@
         <div class="col-md-6 col-lg-4 ">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s3.png" alt="">
+              <img src="assets/images/s3.png"
+              alt="Icône de serveur avec cloud pour services">>
             </div>
             <div class="detail-box">
               <h4>

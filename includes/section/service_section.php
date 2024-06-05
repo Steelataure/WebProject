@@ -34,7 +34,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s2.png" alt="">
+              <img src="assets/images/s2.png" alt="serices-numeriques">
             </div>
             <div class="detail-box">
               <h4>

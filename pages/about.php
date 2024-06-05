@@ -1,5 +1,7 @@
 <?php
-$title = "WebRunners";
+$title = "A propos - WebRunners";
+$meta_description = 'En savoir plus sur Votre Entreprise, notre mission, notre équipe et nos valeurs.';
+
 ob_start();
 ?>
 
