@@ -39,8 +39,8 @@ switch ($page) {
     case 'register':
         require '../pages/register.php';
         break;
-    case 'shop':
-        require '../pages/shop.php';
+    case 'devis':
+        require '../pages/devis.php';
         break;
     default:
         require '../pages/404.php';
