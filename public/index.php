@@ -12,7 +12,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 switch ($page) {
     case 'login':
-        require '../pages/login.php';
+        require '../pages$$$$/login.php';
         break;
     case 'logout':
         require '../pages/logout.php';

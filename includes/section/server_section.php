@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/server-img.jpg" alt="">
+            <img src="assets/images/server-img.jpg" alt="">
             <div class="play_btn">
               <button>
                 <i class="fa fa-play" aria-hidden="true"></i>

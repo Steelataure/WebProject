@@ -19,7 +19,7 @@
                 <div class="col-md-10 mx-auto">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/client.jpg" alt="">
+                      <img src="assets/images/client.jpg" alt="">
                     </div>
                     <div class="detail-box">
                       <div class="client_info">
@@ -49,7 +49,7 @@
                 <div class="col-md-10 mx-auto">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/client.jpg" alt="">
+                      <img src="assets/images/client.jpg" alt="">
                     </div>
                     <div class="detail-box">
                       <div class="client_info">
@@ -79,7 +79,7 @@
                 <div class="col-md-10 mx-auto">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/client.jpg" alt="">
+                      <img src="assets/images/client.jpg" alt="">
                     </div>
                     <div class="detail-box">
                       <div class="client_info">
