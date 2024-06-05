@@ -6,9 +6,8 @@ $title = "WebRunners";
 require_once '../includes/db.php';
 require '../vendor/autoload.php';
 
-//dump($_SESSION);
-
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+$url_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+$page = $url_path ? $url_path : 'home';
 
 switch ($page) {
     case 'login':
@@ -28,18 +27,12 @@ switch ($page) {
         break;
     case 'home':
         require '../pages/home.php';
-        // if (isset($_SESSION['user_id'])) {
-        //     require '../pages/home.php';
-        // } else {
-        //     header('Location: index.php?page=login');
-        //     exit();
-        // }
         break;
     case 'about':
-        require 'about.php';
+        require '../pages/about.php';
         break;
     case 'contact':
-        require 'contact.php';
+        require '../pages/contact.php';
         break;
     case 'register':
         require '../pages/register.php';
@@ -49,6 +42,5 @@ switch ($page) {
         break;
     default:
         require '../pages/404.php';
+        break;
 }
-
-?>

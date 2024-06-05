@@ -5,7 +5,7 @@ ob_start();
 $_SESSION = array();
 session_destroy();
 
-header("Location: ?page=login");
+header("Location: login");
 exit;
 
 $content = ob_get_clean();

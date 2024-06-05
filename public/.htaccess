@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirection vers index.php si l'URL ne correspond pas à un fichier ou un répertoire existant
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]

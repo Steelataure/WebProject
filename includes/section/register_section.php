@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-8 col-lg-6 mx-auto">
         <div class="form_container">
-          <form method="post" action="?page=register">
+          <form method="post" action="register">
             <div>
               <input type="text" id="username" name="username" required placeholder="Votre nom d'utilisateur" />
             </div>
