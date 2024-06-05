@@ -18,7 +18,7 @@
                       <a href="" class="btn-1">
                         En savoir plus
                       </a>
-                      <a href="/index.php?page=contact" class="btn-2">
+                      <a href="/contact" class="btn-2">
                         Contact
                       </a>
                     </div>
@@ -51,7 +51,7 @@
                       <a href="" class="btn-1">
                         En savoir plus
                       </a>
-                      <a href="/index.php?page=contact" class="btn-2">
+                      <a href="/contact" class="btn-2">
                         Contact
                       </a>
                     </div>
@@ -84,7 +84,7 @@
                       <a href="" class="btn-1">
                         Read More
                       </a>
-                      <a href="/index.php?page=contact" class="btn-2">
+                      <a href="/contact" class="btn-2">
                         Contact Us
                       </a>
                     </div>

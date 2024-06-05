@@ -13,6 +13,16 @@
     <link href="assets/css/responsive.css" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css/style.css">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68BF4Q1DGS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-68BF4Q1DGS');
+    </script>
+    
 </head>
 <body>
      <?php include '../includes/header.php'; 

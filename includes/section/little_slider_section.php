@@ -28,7 +28,7 @@
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="">
+                        <img src="assets/images/slider-img.png" alt="">
                       </div>
                     </div>
                   </div>
@@ -61,7 +61,7 @@
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="images/slider-img.png" alt="">
+                        <img src="assets/images/slider-img.png" alt="">
                       </div>
                     </div>
                   </div>

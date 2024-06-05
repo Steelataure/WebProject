@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-8 col-lg-6 mx-auto">
         <div class="form_container">
-          <form method="post" action="?page=login">
+          <form method="post" action="login">
             <div>
               <input type="text" id="username" name="username" required placeholder="Votre nom d'utilisateur" />
             </div>
@@ -19,7 +19,7 @@
             </div>
           </form>
           <br>
-          <p>Pas de compte ? <a href="?page=register">Inscrivez-vous</a></p>
+          <p>Pas de compte ? <a href="register">Inscrivez-vous</a></p>
         </div>
       </div>
     </div>
