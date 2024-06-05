@@ -10,7 +10,7 @@ ob_start();
 
 
 <?php
-include('../includes/section/about_section.php');
+include('../includes/section/about_section_page.php');
 
 $content = ob_get_clean();
 include '../template/layout.php';
