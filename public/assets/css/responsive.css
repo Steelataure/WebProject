@@ -3,7 +3,7 @@
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
-  .hero_area {
+  .hero_area .img-box{
     min-height: auto;
   }
 
@@ -102,7 +102,7 @@
 @media (max-width: 576px) {
 
 
-  .client_section .box {
+  .client_section .box .img-box{
     flex-direction: column;
     align-items: center;
   }

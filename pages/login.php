@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         setcookie('username', $user['username'], time() + (86400 * 30), "/", "", false, true);
 
-        header("Location: index.php");
+        header("Location: /");
         exit();
     } else {
         echo 'Identifiants incorrects.';

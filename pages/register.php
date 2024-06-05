@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute([$username, $hashed_password, $email, $validation_token])) {
             // Code pour l'envoi de l'e-mail de validation avec PHPMailer
             // Assurez-vous de configurer PHPMailer correctement
-            $validation_link = "http://161.97.68.235/?page=validation.php&token=$validation_token";
+            $validation_link = "http://webrunners.fr/?page=validation.php&token=$validation_token";
 
             $mail = new PHPMailer(true);
             try {

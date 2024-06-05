@@ -28,7 +28,7 @@
                   <div class="row">
                     <div class="col-lg-10 mx-auto">
                       <div class="img-box">
-                        <div id="myLottieAnimation" style="width: 500px; height: 500px;"></div>
+                        <div id="myLottieAnimation" class="responsive-lottie"></div>
                       </div>
                     </div>
                   </div>
@@ -61,7 +61,7 @@
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                      <div id="server" style="width: 500px; height: 500px;"></div>
+                      <div id="server" class="responsive-lottie"></div>
                       </div>
                     </div>
                   </div>
@@ -93,9 +93,9 @@
                 <div class="col-md-6">
                   <div class="row">
                     <div class="col-lg-10 mx-auto">
-                      <div class="img-box">
-                        <div id="myLottieMobile" style="width: 500px; height: 500px;"></div>
-                      </div>
+                    <div class="img-box">
+                      <div id="myLottieMobile" class="responsive-lottie"></div>
+                    </div>
                     </div>
                   </div>
                 </div>
