@@ -12,8 +12,8 @@
               </h2>
             </div>
             <p>
-              Nous sommes des étudiants en école d'ingénieurs, proposant des services de développement de site web. De plus nous proposons aussi d'administrer et de sécurisé votre architecture. En cas de question n'hésitez surtout pas a nous contacter via la Rubrique "Contact" 
-            </p>
+            Nous sommes des étudiants en école d'ingénieurs spécialisés dans le développement web, l'administration et la sécurisation des architectures réseau. Notre équipe propose des solutions 
+            personnalisées pour répondre à vos besoins informatiques. Contactez-nous pour discuter de votre projet            
             <a href="about">
               En savoir plus
             </a>

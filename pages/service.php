@@ -10,7 +10,7 @@ ob_start();
   </div>
   <?php
 
-include('../includes/section/large_service_section.php');
+include('../includes/section/service_section.php');
 
 $content = ob_get_clean();
 include '../template/layout.php';

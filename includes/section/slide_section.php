@@ -9,11 +9,11 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      Rapide et sécurisé <br>
-                      Une équipe professionnelle
+                    Solutions Web Personnalisées <br>
+                    Rapidité, Sécurité, Professionnalisme
                     </h1>
                     <p>
-			Notre équipe sera à votre écoute afin de vous proposer un service de qualité approprié à votre demande
+                    Notre équipe d'ingénieurs propose des services web rapides, sécurisés et sur-mesure pour répondre à vos besoins spécifiques
                     <div class="btn-box">
                       <a href="" class="btn-1">
                         En savoir plus
@@ -46,7 +46,7 @@
                       Une équipe professionnelle
                     </h1>
                     <p>
-			Notre équipe sera à votre écoute afin de vous proposer un service de qualité approprié à votre demande
+                    Notre équipe vous propose des services de qualité adaptés à vos besoins
                     <div class="btn-box">
                       <a href="" class="btn-1">
                         En savoir plus
@@ -75,17 +75,18 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      Fast & Secure <br>
-                      Web Hosting
+                     Hébergement Web Performant <br>
+                     Rapidité et Sécurité Garanties
                     </h1>
                     <p>
-                      Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
+                    Profitez d'un hébergement web rapide et sécurisé pour votre site. Nos services garantissent une expérience optimale en ligne
+                   </p>
                     <div class="btn-box">
                       <a href="" class="btn-1">
-                        Read More
+                        En savoir plus
                       </a>
                       <a href="/contact" class="btn-2">
-                        Contact Us
+                        Contact
                       </a>
                     </div>
                   </div>

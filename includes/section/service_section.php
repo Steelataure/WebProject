@@ -14,14 +14,14 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/serveurs-connectes-utilisateur-services-developpement-web.png" alt="développement site internet">
+              <img src="assets/images/vente-site-web-vitrine-fenetre-www.png" alt="Illustration de vente de sites web vitrine">
             </div>
             <div class="detail-box">
               <h4>
-                Developpement de Site Vitrine
+              Développement de Site Vitrine
               </h4>
               <p>
-		Nous développons pour vous un site vitrine à votre image
+              Nous créons des sites vitrines uniques et personnalisés qui reflètent parfaitement l'image de votre entreprise
               </p>
               <!-- <a href="#">
                 En savoir plus
@@ -38,10 +38,10 @@
             </div>
             <div class="detail-box">
               <h4>
-                Développement de site web full stack 
+              Développement Full Stack
               </h4>
               <p>
-		Développement BackEnd + FrontEnd
+              Développement complet de sites web avec gestion BackEnd et FrontEnd pour une expérience optimale
               </p>
               <!-- <a href="">
                 En savoir plus
@@ -61,7 +61,7 @@
                 Administration et sécurisation d'architecture
               </h4>
               <p>
-		Mise en place d'architecture d'entreprise
+              Implémentation architecture réseau d'entreprise
               </p>
               <!-- <a href="#">
                 En savoir plus
