@@ -8,16 +8,16 @@
               Coordonées
             </h4>
             <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +33 6 40 81 50 99
-                </span>
-              </a>
+            <a href="tel:+33640815099">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call +33 6 40 81 50 99
+              </span>
+            </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  info@webrunners.fr
+                  alexandre0312@orange.fr
                 </span>
               </a>
             </div>
@@ -43,23 +43,23 @@
               Liens
             </h4>
             <div class="info_links">
-              <a class="" href="/index.php?page=home">
+              <a class="" href="/">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Accueil
               </a>
-              <a class="" href="/index.php?page=about">
+              <a class="" href="/about">
                 <img src="assets/images/nav-bullet.png" alt="">
                 A propos
               </a>
-              <a class="active" href="/index.php?page=service">
+              <a class="active" href="/service">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Services
               </a>
-              <a class="" href="/index.php?page=price">
+              <!-- <a class="" href="/price">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Pricing
-              </a>
-              <a class="" href="/index.php?page=contact">
+              </a> -->
+              <a class="" href="/contact">
                 <img src="assets/images/nav-bullet.png" alt="">
                 Contact
               </a>

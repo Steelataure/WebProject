@@ -56,7 +56,7 @@
           <div class="box ">
             <div class="img-box">
               <img src="assets/images/s3.png"
-              alt="Icône de serveur avec cloud pour services">>
+              alt="Icône de serveur avec cloud pour services">
             </div>
             <div class="detail-box">
               <h4>

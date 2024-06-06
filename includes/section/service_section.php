@@ -14,7 +14,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s1.png" alt="développement site internet">
+              <img src="assets/images/serveurs-connectes-utilisateur-services-developpement-web.png" alt="développement site internet">
             </div>
             <div class="detail-box">
               <h4>
@@ -34,7 +34,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s2.png" alt="serices-numeriques">
+              <img src="assets/images/icone-serveur-cloud-services-web.png" alt="serices-numeriques">
             </div>
             <div class="detail-box">
               <h4>
@@ -51,8 +51,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 ">
-          <div class="box ">
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
             <div class="img-box">
               <img src="assets/images/s3.png" alt="développement site internet">
             </div>
