@@ -1,5 +1,5 @@
 <?php
-$title = "Accueil - WebRunners";
+$title = "WebRunners";
 $meta_description = 'Bienvenue sur le site de Votre Entreprise, découvrez nos services et solutions adaptées à vos besoins.';
 
 ob_start();
@@ -11,7 +11,8 @@ include("../includes/section/slide_section.php");
   <?php include('../includes/section/service_section.php'); ?>
   <?php include('../includes/section/about_section.php'); ?>
   <?php include('../includes/section/server_section.php'); ?>
-  <?php include('../includes/section/pricing_section.php'); ?>
+  <?php //include('../includes/section/pricing_section.php'); ?>
+  <br><br><br><br><br>
   <?php include('../includes/section/client_section.php'); ?>
   <?php include('../includes/section/contact_section.php'); ?>
   

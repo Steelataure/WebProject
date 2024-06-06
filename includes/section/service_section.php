@@ -14,7 +14,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s1.png" alt="">
+              <img src="assets/images/s1.png" alt="développement site internet">
             </div>
             <div class="detail-box">
               <h4>
@@ -23,11 +23,11 @@
               <p>
 		Nous développons pour vous un site vitrine à votre image
               </p>
-              <a href="">
+              <!-- <a href="#">
                 En savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -43,18 +43,18 @@
               <p>
 		Développement BackEnd + FrontEnd
               </p>
-              <a href="">
+              <!-- <a href="">
                 En savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 ">
           <div class="box ">
             <div class="img-box">
-              <img src="assets/images/s3.png" alt="">
+              <img src="assets/images/s3.png" alt="développement site internet">
             </div>
             <div class="detail-box">
               <h4>
@@ -63,11 +63,11 @@
               <p>
 		Mise en place d'architecture d'entreprise
               </p>
-              <a href="">
+              <!-- <a href="#">
                 En savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>

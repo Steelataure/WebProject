@@ -37,7 +37,7 @@
             </ul>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="#">
               See Detail
             </a>
           </div>
@@ -103,7 +103,7 @@
             </ul>
           </div>
           <div class="btn-box">
-            <a href="">
+            <a href="#">
               See Detail
             </a>
           </div>

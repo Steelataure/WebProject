@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="assets/images/server-img.jpg" alt="">
+            <img src="assets/images/server-img.jpg" alt="réseau de serveurs">
             <div class="play_btn">
               <button>
                 <i class="fa fa-play" aria-hidden="true"></i>
@@ -25,9 +25,9 @@
                 Des solutions dynamiques et en accord avec votre demande
               </p>
             </div>
-            <a href="">
+            <!-- <a href="">
               En savoir plus
-            </a>
+            </a> -->
           </div>
         </div>
       </div>

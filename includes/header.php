@@ -22,9 +22,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="/service">Services</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="/price">Pricing</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
               </li>

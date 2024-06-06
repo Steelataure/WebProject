@@ -23,11 +23,11 @@
               <p>
               Nous développons pour vous un site vitrine à votre image
               </p>
-              <a href="">
+              <!-- <a href="">
                 En savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -44,11 +44,11 @@
               <p>
               Développement BackEnd + FrontEnd
               </p>
-              <a href="">
+              <!-- <a href="">
                 En savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -65,10 +65,10 @@
               <p>
               Mise en place d'architecture d'entreprise
               </p>
-              <a href="">
+              <!-- <a href="">
                 En savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>

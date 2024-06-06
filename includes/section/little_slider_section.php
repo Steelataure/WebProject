@@ -15,10 +15,10 @@
                     <p>
                     Notre équipe sera à votre écoute afin de vous proposer un service de qualité approprié à votre demande
                     <div class="btn-box">
-                      <a href="" class="btn-1">
+                      <!-- <a href="#" class="btn-1">
                         En savoir plus
-                      </a>
-                      <a href="" class="btn-2">
+                      </a> -->
+                      <a href="contact" class="btn-2">
                         Contact
                       </a>
                     </div>
@@ -28,7 +28,7 @@
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="assets/images/slider-img.png" alt="">
+                        <img src="assets/images/slider-img.png" alt="réseaux de serveurs">
                       </div>
                     </div>
                   </div>
@@ -48,10 +48,10 @@
                     <p>
                     Notre équipe sera à votre écoute afin de vous proposer un service de qualité approprié à votre demande
                     <div class="btn-box">
-                      <a href="" class="btn-1">
+                      <!-- <a href="" class="btn-1">
                       En savoir plus
-                      </a>
-                      <a href="" class="btn-2">
+                      </a> -->
+                      <a href="contact" class="btn-2">
                         Contact
                       </a>
                     </div>
@@ -61,7 +61,7 @@
                   <div class="row">
                     <div class=" col-lg-10 mx-auto">
                       <div class="img-box">
-                        <img src="assets/images/slider-img.png" alt="">
+                        <img src="assets/images/slider-img.png" alt="réseaux de serveurs">
                       </div>
                     </div>
                   </div>

@@ -19,9 +19,9 @@ switch ($page) {
     case 'validation':
         require '../pages/validation.php';
         break;
-    case 'price':
-        require '../pages/price.php';
-        break;
+    // case 'price':
+    //     require '../pages/price.php';
+    //     break;
     case 'service':
         require '../pages/service.php';
         break;
