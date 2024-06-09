@@ -74,7 +74,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="detail-box">
-                    <h1>
+                    <h1>²
                      Hébergement Web Performant <br>
                      Rapidité et Sécurité Garanties
                     </h1>
