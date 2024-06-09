@@ -8,7 +8,7 @@ ob_start();
 				<h1>404</h1>
 				<h2>Page not found</h2>
 			</div>
-			<a href="index.php?page=home">Homepage</a>
+			<a href="home">Homepage</a>
 		</div>
 	</div>
 

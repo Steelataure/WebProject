@@ -1,7 +1,5 @@
 <?php
 $title = "WebRunners";
-$meta_description = 'Bienvenue sur le site de Votre Entreprise, découvrez nos services et solutions adaptées à vos besoins.';
-
 ob_start();
 
 include("../includes/section/slide_section.php");
