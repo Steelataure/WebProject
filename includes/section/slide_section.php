@@ -74,7 +74,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="detail-box">
-                    <h1>²
+                    <h1>
                      Hébergement Web Performant <br>
                      Rapidité et Sécurité Garanties
                     </h1>
@@ -125,7 +125,7 @@
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      path: 'assets/images/pclottie.json'
+      path: 'assets/images/dev_table.json'
     });
   });
 
