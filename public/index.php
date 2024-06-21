@@ -36,13 +36,17 @@ switch ($page) {
     case 'contact':
         require '../pages/contact.php';
         break;
+    case 'profile':
+        require '../pages/profile.php';
+        break;
     case 'register':
         require '../pages/register.php';
         break;
     case 'devis':
         require '../pages/devis.php';
         break;
-    default:
-        require '../pages/404.php';
-        break;
+    //Enlever après notes IMC
+    // default:
+    //     require '../pages/404.php';
+    //     break;
 }
