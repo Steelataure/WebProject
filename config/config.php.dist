@@ -6,7 +6,7 @@ return [
     'smtp_port' => 587, // Port SMTP à utiliser
     
     //Celui qui recoit les mails des forms de contact
-    'recipient' => 'alexandre0312@orange.fr',
+    'recipient' => 'exemple@gmail.com',
 
 
     'host' => 'localhost', // Adresse du serveur MySQL
