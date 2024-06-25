@@ -4,6 +4,10 @@ return [
     'smtp_username' => 'votre_nom_utilisateur_smtp',
     'smtp_password' => 'votre_mot_de_passe_smtp',
     'smtp_port' => 587, // Port SMTP à utiliser
+    
+    //Celui qui recoit les mails des forms de contact
+    'recipient' => 'alexandre0312@orange.fr',
+
 
     'host' => 'localhost', // Adresse du serveur MySQL
     'dbname' => 'nom_de_la_base_de_donnees', // Nom de la base de données

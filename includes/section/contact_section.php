@@ -10,23 +10,22 @@
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto">
           <div class="form_container">
-            <form action="">
+            <form method="post" action="contact">
               <div>
-                <input type="text" placeholder="Votre nom" />
+                <input type="text" id="username" name="username" placeholder="Votre nom" />
               </div>
               <div>
-                <input type="email" placeholder="Votre e-mail" />
+                <input type="email" id="email" name="email" placeholder="Votre e-mail" />
               </div>
               <div>
-                <input type="text" placeholder="Votre téléphone" />
+                <input type="text" id="phone" name="phone" placeholder="Votre téléphone" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Votre message" />
+                <input type="text" id="message" name="message" class="message-box" placeholder="Votre message" />
               </div>
-              <div class="btn_box ">
-                <button>
-                  ENVOYER
-                </button>
+                <div class="btn_box">
+                   <button type="submit">ENVOYER</button>
+                </div>
               </div>
             </form>
           </div>
