@@ -56,10 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-?>
-<body class="sub_page">
-    </div>
-<?php
 include('../includes/section/register_section.php');
 
 $content = ob_get_clean();

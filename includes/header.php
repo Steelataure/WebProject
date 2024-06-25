@@ -49,3 +49,11 @@
         </nav>
       </div>
     </header>
+    <?php
+    $url_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+    if ($url_path !== '' and  $url_path !== '/'){
+      ?>
+          <body class="sub_page">    
+          </div>
+          <?php
+    }

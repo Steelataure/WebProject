@@ -30,9 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<body class="sub_page">
-    </div>
-  
 <!---------------------------------------->
 <?php
 

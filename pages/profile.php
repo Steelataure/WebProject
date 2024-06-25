@@ -10,9 +10,6 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
 $creationDate = new DateTime($user['created_at']);
 ?>
 
-<body class="sub_page">
-  </div>
-
   <div class="container mx-auto p-4">
         <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg p-6">
             <h1 class="text-2xl font-bold mb-4">Mon Profil</h1>

@@ -3,12 +3,6 @@ $title = "WebRunners";
 $meta_description = 'Découvrez nos services de développement de site vitrine, développement full stack et administration d\'architecture pour une présence en ligne optimale.';
 
 ob_start(); 
-?>
-
-<body class="sub_page">
-
-  </div>
-  <?php
 
 include('../includes/section/service_section.php');
 
