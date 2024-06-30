@@ -1,6 +1,6 @@
 # WebRunners
 
-![WebRunners](/public/assets/images/WebRunners.png)
+![WebRunners](/public/assets/images/WebRunners.PNG)
 WebRunners est une plateforme spécialisée dans la vente de sites web personnalisés. Nous proposons des solutions complètes pour répondre aux besoins spécifiques de chaque client, qu'il s'agisse de particuliers, de petites entreprises ou de grandes entreprises.
 
 ## Catégories de Services
