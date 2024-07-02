@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-include('../includes/section/register_section.php');
+include('../includes/section/register_section.html');
 
 $content = ob_get_clean();
 include '../template/layout.php';

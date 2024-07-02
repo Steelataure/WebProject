@@ -13,7 +13,7 @@ $pdo = getDatabaseConnection();
 
 // Charger la configuration SMTP à partir du fichier de configuration
 $config = require '../config/config.php';
-include('../includes/section/contact_section.php');
+include('../includes/section/contact_section.html');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim($_POST['username']);

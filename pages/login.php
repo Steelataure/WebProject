@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!---------------------------------------->
 <?php
 
-include('../includes/section/login_section.php');
+include('../includes/section/login_section.html');
 
 $content = ob_get_clean();
 include '../template/layout.php';

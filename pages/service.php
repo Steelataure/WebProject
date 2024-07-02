@@ -4,7 +4,7 @@ $meta_description = 'Découvrez nos services de développement de site vitrine, 
 
 ob_start(); 
 
-include('../includes/section/service_section.php');
+include('../includes/section/service_section.html');
 
 $content = ob_get_clean();
 include '../template/layout.php';
